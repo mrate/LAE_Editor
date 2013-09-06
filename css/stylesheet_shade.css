@@ -1,0 +1,111 @@
+QMainWindow, QDialog, QDockWidget
+{
+	border: 1px solid black;
+	background-color: rgb(200, 200, 200);
+}
+
+QComboBox, QPushButton, QSpinBox, QMenu, QStatusBar, QToolBar, QMenuBar, QHeaderView::section, QScrollBar:horizontal, QDockWidget:title
+{
+	border: 1px solid black;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(220, 220, 220, 255), stop:1 rgba(130, 130, 130, 255));
+}
+
+QPushButton
+{
+	padding: 5px 5px 5px 5px;
+}
+
+QMenuBar
+{
+	padding: 5px 5px 5px 5px;
+}
+
+QScrollBar:vertical
+{
+	border: 1px solid black;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(220, 220, 220, 255), stop:1 rgba(130, 130, 130, 255));
+}
+
+QHeaderView
+{
+	background-color: black;
+}
+
+QHeaderView::section
+{
+	border: 0px;
+	padding: 2px 2px 2px 2px;
+}
+
+QMenuBar:item
+{
+	border: 0px;
+	padding: 0px 5px 0px 5px;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(220, 220, 220, 255), stop:1 rgba(130, 130, 130, 255));
+}
+
+QComboBox
+{
+	padding: 1px 18px 1px 3px;	
+}
+
+QComboBox:hover, QPushButton:hover, QSpinBox:hover, QMenuBar::item::selected
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(250, 250, 250, 255), stop:1 rgba(150, 150, 150, 255));
+}
+
+QPushButton:pressed
+{
+	border: 2px solid black;
+	padding-top: 2px;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(230, 230, 230, 255), stop:1 rgba(130, 130, 130, 255));
+}
+
+QPushButton:default
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(250, 250, 250, 255), stop:1 rgba(150, 150, 150, 255));
+}
+
+QLineEdit
+{
+	border: 1px solid black;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0.3, x2:0, y2:0, stop:0 rgba(220, 220, 220, 255), stop:1 rgba(130, 130, 130, 255));
+}
+
+QLineEdit:hover
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0.3, x2:0, y2:0, stop:0 rgba(230, 230, 230, 255), stop:1 rgba(140, 140, 140, 255));
+}
+
+QLineEdit:focus, QSpinBox:focus
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0.3, x2:0, y2:0, stop:0 rgba(250, 250, 250, 255), stop:1 rgba(160, 160, 160, 255));
+}
+
+QMenu:hover
+{
+	border: 1px solid black;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(220, 220, 220, 255), stop:1 rgba(130, 130, 130, 255));	
+}
+
+QListView, QTreeView, QTableView
+{
+	border: 1px solid black;
+	background-color: rgb(220, 220, 220);
+	alternate-background-color: rgb(200, 200, 200);
+}
+
+QListView:item:selected, QTreeView:item:selected
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(100, 100, 100, 255));	
+}
+
+QListView:item:selected:hover, QTreeView:item:selected:hover
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(140, 140, 140, 255), stop:1 rgba(60, 60, 60, 255));	
+}
+
+QListView:item:hover, QTreeView:item:hover
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(220, 220, 220, 255), stop:1 rgba(130, 130, 130, 255));	
+}

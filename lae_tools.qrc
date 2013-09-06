@@ -1,0 +1,34 @@
+<RCC>
+    <qresource prefix="/images" >
+        <file alias="accept" >Resources/accept.png</file>
+        <file alias="add" >Resources/add.png</file>
+        <file alias="cancel" >Resources/cancel.png</file>
+        <file alias="play" >Resources/control_play.png</file>
+        <file alias="stop" >Resources/control_stop.png</file>
+        <file alias="delete" >Resources/delete.png</file>
+        <file alias="film" >Resources/film.png</file>
+        <file alias="repeat" >Resources/control_repeat.png</file>
+        <file alias="save" >Resources/disk.png</file>
+        <file alias="open" >Resources/folder.png</file>
+        <file alias="exit" >Resources/door_in.png</file>
+        <file alias="arrow_down" >Resources/arrow_down.png</file>
+        <file alias="arrow_up" >Resources/arrow_up.png</file>
+        <file alias="room" >Resources/house.png</file>
+        <file alias="item" >Resources/brick.png</file>
+        <file alias="eye'" >Resources/eye.png</file>
+        <file alias="zplane" >Resources/layers.png</file>
+        <file alias="scale" >Resources/magnifier.png</file>
+        <file alias="zplanes" >Resources/overlays.png</file>
+        <file alias="items" >Resources/brick_add.png</file>
+        <file alias="scales" >Resources/magnifier_zoom_in.png</file>
+        <file alias="box" >Resources/shape_square.png</file>
+        <file alias="boxes" >Resources/shape_square_add.png</file>
+        <file alias="light" >Resources/lightbulb.png</file>
+        <file alias="lights" >Resources/lightbulb_add.png</file>
+    </qresource>
+    <qresource prefix="/style" >
+        <file alias="blue">css/stylesheet_blue.css</file>
+        <file alias="black">css/stylesheet_black.css</file>
+        <file alias="shade">css/stylesheet_shade.css</file>
+    </qresource>
+</RCC>

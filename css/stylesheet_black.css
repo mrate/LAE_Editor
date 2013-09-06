@@ -1,0 +1,115 @@
+ QMainWindow {
+     background: #000000;
+	color: white;
+ }
+
+ QListView {
+     show-decoration-selected: 1; /* make the selection span the entire width of
+ the view */
+	background: #000000;
+	color: white;
+ }
+
+ QListView::item {
+     background: #FF6666; 
+ }
+
+ QListView::item:alternate {
+     background: #FF4444;
+ }
+
+ QListView::item:selected {
+     border: 1px solid #000000;
+ }
+
+ QListView::item:selected:!active {
+     background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                 stop: 0 #AA2222, stop: 1 #990000);
+ }
+
+ QListView::item:selected:active {
+     background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                 stop: 0 #AA6666, stop: 1 #992222);
+ }
+
+ QListView::item:hover {
+     background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                 stop: 0 #a96a6e, stop: 1 #d9888d);
+ }
+ 
+  QPushButton {
+     border: 2px solid #FF0000;
+     border-radius: 6px;
+     background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                 stop: 0 #AA6666, stop: 1 #992222);
+     min-width: 80px;
+	color: white;
+ }
+
+  QPushButton:hover {
+     border: 2px solid #8f8f91;
+     border-radius: 6px;
+     background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                 stop: 0 #AA2222, stop: 1 #CC0000);
+     min-width: 80px;
+ }
+
+ QPushButton:pressed {
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                       stop: 0 #CC0000, stop: 1 #AA2222);
+ }
+
+ QPushButton:flat {
+     border: none; /* no border for a flat push button */
+ }
+
+ QPushButton:default {
+     border-color: white; /* make the default button prominent */
+ }
+ 
+  QMenu {
+     border: 2px solid #990000;
+     border-radius: 6px;
+     background-color: black;
+	 color: white;
+     margin: 2px; /* some spacing around the menu */
+ }
+
+ QMenu::item {
+     padding: 2px 25px 2px 20px;
+     border: 1px solid transparent; /* reserve space for selection border */
+ }
+
+ QMenu::item:selected {
+     background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                 stop: 0 #AA6666, stop: 1 #992222);
+     border: 2px solid #990000;
+     border-radius: 2px;
+	 color: white;
+     margin: 2px; /* some spacing around the menu */
+ }
+
+ QMenu::separator {
+     height: 2px;
+     background: darkred;
+ }
+
+ QMenu::indicator {
+     width: 13px;
+     height: 13px;
+ }
+
+QComboBox {
+     border: 2px solid #990000;
+     border-radius: 6px;
+     background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                 stop: 0 #AA6666, stop: 1 #992222);
+     min-width: 80px;
+	color: white;
+ }
+
+QRadioButton
+{
+     min-width: 80px;
+	color: white;
+}

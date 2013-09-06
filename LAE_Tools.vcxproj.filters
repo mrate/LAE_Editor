@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{b2fdda9a-d977-417a-a47c-30d14673b7f6}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{695e0fd4-1080-41a9-839c-f07a1dcba90b}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{1add880b-7c9d-40d2-8887-c5d5051e03fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files\Template">
+      <UniqueIdentifier>{f12aa072-b869-4035-9655-21e1795e21d1}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="css">
+      <UniqueIdentifier>{e0a2caeb-ed32-40e7-a581-98cffc1565a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\animation">
+      <UniqueIdentifier>{b45592c9-f134-4149-81c0-3d6da7bce17f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\room">
+      <UniqueIdentifier>{baaa5609-17c1-42e5-9185-7743d9174a00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\common">
+      <UniqueIdentifier>{4b2532df-9b21-47c8-9b27-053525bb812c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\main">
+      <UniqueIdentifier>{a546055d-ff20-40ae-ab2c-e9ad5f13cfdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\runtime">
+      <UniqueIdentifier>{119e24ee-9ca1-4743-9d44-94353673f271}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GeneratedFiles\qrc_lae_tools.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\animation\AnimationEditorWidget.cpp">
+      <Filter>source\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AnimationEditorWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AnimationEditorWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_AnimationEditorWidget.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="source\animation\AnimationEditorWindow.cpp">
+      <Filter>source\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AnimationEditorWindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AnimationEditorWindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_AnimationEditorWindow.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="source\common\AnimationSelectorWindow.cpp">
+      <Filter>source\common</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AnimationSelectorWindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AnimationSelectorWindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_AnimationSelectorWindow.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="source\common\PropertyTable.cpp">
+      <Filter>source\common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\common\qanimationlistbox.cpp">
+      <Filter>source\common</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qanimationlistbox.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qanimationlistbox.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qanimationlistbox.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="source\common\qspritelistbox.cpp">
+      <Filter>source\common</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qspritelistbox.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qspritelistbox.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qspritelistbox.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="source\common\SelectFileWidget.cpp">
+      <Filter>source\common</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SelectFileWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SelectFileWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_SelectFileWidget.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="source\common\SpriteSelectorWindow.cpp">
+      <Filter>source\common</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SpriteSelectorWindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SpriteSelectorWindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_SpriteSelectorWindow.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="source\runtime\main.cpp">
+      <Filter>source\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="source\room\RoomEditorWidget.cpp">
+      <Filter>source\room</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_RoomEditorWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_RoomEditorWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_RoomEditorWidget.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="source\room\RoomEditorWindow.cpp">
+      <Filter>source\room</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_RoomEditorWindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_RoomEditorWindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_RoomEditorWindow.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="source\room\RoomObjectTableDelegate.cpp">
+      <Filter>source\room</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_RoomObjectTableDelegate.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_RoomObjectTableDelegate.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_RoomObjectTableDelegate.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="source\main\MainWindow.cpp">
+      <Filter>source\main</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MainWindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MainWindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_MainWindow.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LAE_Tools.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuildStep Include="Resources\accept.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\add.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\arrow_down.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\arrow_up.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\brick.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\brick_add.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\cancel.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\control_play.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\control_repeat.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\control_stop.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\delete.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\disk.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\door_in.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\eye.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\film.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\folder.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\house.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\layers.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\lightbulb.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\lightbulb_add.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\magnifier.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\magnifier_zoom_in.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\overlays.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\shape_square.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Resources\shape_square_add.png">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="lae_tools.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="source\animation\AnimationEditorWidget.h">
+      <Filter>source\animation</Filter>
+    </CustomBuild>
+    <CustomBuild Include="source\animation\AnimationEditorWindow.h">
+      <Filter>source\animation</Filter>
+    </CustomBuild>
+    <CustomBuild Include="source\animation\AnimationEditorWindow.ui">
+      <Filter>source\animation</Filter>
+    </CustomBuild>
+    <CustomBuild Include="source\common\AnimationSelectorWindow.h">
+      <Filter>source\common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="source\common\AnimationSelectorWindow.ui">
+      <Filter>source\common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="source\common\qanimationlistbox.h">
+      <Filter>source\common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="source\common\qspritelistbox.h">
+      <Filter>source\common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="source\common\SelectFileWidget.h">
+      <Filter>source\common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="source\common\SelectFileWidget.ui">
+      <Filter>source\common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="source\common\SpriteSelectorWindow.h">
+      <Filter>source\common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="source\common\SpriteSelectorWindow.ui">
+      <Filter>source\common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="source\room\RoomEditorWidget.h">
+      <Filter>source\room</Filter>
+    </CustomBuild>
+    <CustomBuild Include="source\room\RoomEditorWindow.h">
+      <Filter>source\room</Filter>
+    </CustomBuild>
+    <CustomBuild Include="source\room\RoomEditorWindow.ui">
+      <Filter>source\room</Filter>
+    </CustomBuild>
+    <CustomBuild Include="source\room\RoomObjectTableDelegate.h">
+      <Filter>source\room</Filter>
+    </CustomBuild>
+    <CustomBuild Include="source\main\MainWindow.h">
+      <Filter>source\main</Filter>
+    </CustomBuild>
+    <CustomBuild Include="source\main\MainWindow.ui">
+      <Filter>source\main</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="css\stylesheet_black.css">
+      <Filter>css</Filter>
+    </None>
+    <None Include="css\stylesheet_blue.css">
+      <Filter>css</Filter>
+    </None>
+    <None Include="css\stylesheet_shade.css">
+      <Filter>css</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_AnimationEditorWindow.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_AnimationSelectorWindow.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\common\PropertyTable.h">
+      <Filter>source\common</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_SelectFileWidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_SpriteSelectorWindow.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\room\ObjectIdentifier.h">
+      <Filter>source\room</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_RoomEditorWindow.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_MainWindow.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
