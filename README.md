@@ -25,6 +25,7 @@ make
 
 Projects has following dependencies (Ubuntu package name is in parenthesis at each library):
 
+* LuaAdventureEngine build (../libs/LAE_Core.a)
 * CMake (cmake)
 * gcc (gcc-4.9-multilib g++-4.9-multilib)
 * Qt 4.8.6 (libqt4-dev)
